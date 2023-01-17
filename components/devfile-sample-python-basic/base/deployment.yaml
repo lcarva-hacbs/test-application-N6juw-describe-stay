@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: quay.io/lucarval/devfile-sample-python-basic
+      - image: quay.io/lucarval/devfile-sample-python-basic@sha256:8fc7874703295a6dbff69cf94f27ef36008daaacb71ac0ba9d84ddf723f40ffd
         imagePullPolicy: Always
         name: container-image
         resources: {}
